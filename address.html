@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="address.css">
+    <script src="address.js" defer></script>
+    <title>Enter Your Address</title>
+</head>
+<body>
+    <header>
+        <h1>Enter Your Shipping Address</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="orders.html">Your Orders</a></li>
+                <li><a href="admin.html">Admin Panel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="address-form">
+        <form action="confirmation.html" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Street Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="zip">ZIP Code:</label>
+            <input type="text" id="zip" name="zip" required>
+
+            <button type="submit">Proceed to Confirmation</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Multi-Vendor Marketplace. All rights reserved.</p>
+    </footer>
+</body>
+</html>

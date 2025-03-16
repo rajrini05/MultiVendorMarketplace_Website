@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css"> <!-- CSS file linked here -->
+    <script src="cart.js" defer></script>
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="orders.html">Your Orders</a></li>
+                <li><a href="admin.html">Admin Panel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="cart-section">
+        <h2>Items in Your Cart</h2>
+        <div id="cart-items">
+            <!-- Cart items will be loaded here -->
+        </div>
+        <button id="checkout-btn" onclick="window.location.href='checkout.html'">Proceed to Checkout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Multi-Vendor Marketplace. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <script src="admin.js" defer></script>
+    <title>Admin Panel - Multi-Vendor Marketplace</title>
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="orders.html">Your Orders</a></li>
+                <li><a href="admin.html">Admin Panel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="admin-panel">
+        <h2>Manage Products</h2>
+        <form id="product-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <input type="number" id="product-price" placeholder="Price" required>
+            <input type="text" id="product-image" placeholder="Image URL" required>
+            <button type="submit">Add Product</button>
+        </form>
+
+        <h2>Existing Products</h2>
+        <div id="product-list">
+            <!-- Products will dynamically populate here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Multi-Vendor Marketplace. All rights reserved.</p>
+    </footer>
+</body>
+</html>

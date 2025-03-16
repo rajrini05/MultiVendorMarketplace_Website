@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor.css">
+    <script src="vendor.js" defer></script>
+    <title>Zara - Multi-Vendor Marketplace</title>
+</head>
+
+<body>
+    <header>
+        <h1>Zara Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="address.html">Your Address</a></li>
+                <li><a href="confirmation.html">Order Confirmation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Our Best Sellers</h2>
+
+        <div class="product">
+            <img src="zara-summer-dress.jpg" alt="Zara T-Shirt">
+            <h3>Zara Summer Dress</h3>
+            <p>Price: ₹799</p>
+            <button onclick="addToCart('Classic White T-Shirt', 799)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="zara-jeans.jpg" alt="Zara Jeans">
+            <h3>Denim Jeans</h3>
+            <p>Price: ₹1299</p>
+            <button onclick="addToCart('Denim Jeans', 1299)">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Zara - Multi-Vendor Marketplace. All rights reserved.</p>
+    </footer>
+
+    <script src="vendor.js" defer></script>
+</body>
+</html>
